@@ -20,7 +20,7 @@ app.post("/",function(req,res){
 
   const query = req.body.cityName;
 
-  const appKey="5580fdc6a2f7f9dcb6aa49dfcb422f2b"
+  const appKey=process.env.appKey
 
   const unit="imperial"
 
